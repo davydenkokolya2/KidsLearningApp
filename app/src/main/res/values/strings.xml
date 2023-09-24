@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">KidsLearningApp</string>
+    <string name="exam">Exam</string>
+    <string name="challenge">Challenge</string>
+    <string name="arts">Arts</string>
+    <string name="islamic_study">Islamic Study</string>
+    <string name="social_science">Social Science</string>
+    <string name="math">Math</string>
+    <string name="arabic">Arabic</string>
+    <string name="science">Science</string>
+    <string name="onboarding_1">Welcome to our exciting educational application, specially designed for young students and their parents!</string>
+    <string name="onboarding_2">We have lessons in a wide variety of subjects - math, grammar, science, history and much more. A variety of subjects helps children develop a broad outlook.</string>
+    <string name="lesson_title_1">01. Introduction</string>
+    <string name="lesson_title_2">02. lorem Ipsum lo</string>
+    <string name="lesson_title_3">03. lorem Ipsum lo</string>
+    <string name="lesson_title_4">04. lorem Ipsum lo</string>
+    <string name="lesson_lectures_1">3 lectures 7 min</string>
+    <string name="lesson_lectures_2">8 lectures 1h 33 min</string>
+    <string name="lesson_lectures_3">6 lectures 27 min</string>
+    <string name="lesson_lectures_4">4 lectures 40 min</string>
+    <string name="time_1">00:44</string>
+    <string name="time_2">03:49</string>
+    <string name="time_3">03:49</string>
+    <string name="lectures_title_1">Lorem Ipsum lorm child omlimun 1</string>
+    <string name="lectures_title_2">Lorem Ipsum Lorm weuidnu chils 2</string>
+    <string name="lectures_title_3">Lorem Ipsum Lorm weuidnu chils 3</string>
+    <string name="lesson_description">Дорогие родители и маленькие математики,
+Добро пожаловать в увлекательный мир математики! Учиться математике может быть весело и увлекательно, и наше приложение создано, чтобы помочь вашему ребенку полюбить этот фантастический предмет.
+ Учим числа: Начнем с самых основ - чисел! Ваш ребенок узнает, как считать от 1 до 10, а затем и дальше. Мы используем цветные и интересные иллюстрации, чтобы сделать это процесс увлекательным.
+Операции с числами: Мы познакомим вашего ребенка с арифметическими операциями: сложение, вычитание, умножение и деление. Мы разберемся в них шаг за шагом, играя и решая задачи.
+ Головоломки и задачи: Математика - это как головоломка, которую можно разгадать! Мы предлагаем увлекательные задачи и головоломки, которые разовьют логическое мышление и аналитические способности вашего ребенка.
+Отслеживание прогресса: Вы сможете следить за успехами своего ма</string>
+    <string name="progress">Progress</string>
+    <string name="next_lesson">Next lesson</string>
+    <string name="all_subjects">All Subjects</string>
+    <string name="home">Home</string>
+    <string name="textview">TextView</string>
+    <string name="next">Next</string>
+    <string name="_0">0%</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon_background_card_lesson" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/custom_progress_blue"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLessonCardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ProgressBar2"
+        app:layout_constraintStart_toEndOf="@+id/ProgressBar2"
+        app:layout_constraintTop_toTopOf="@+id/ProgressBar2" />
+
+    <TextView
+        android:id="@+id/tvLessonCardLectures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="TextView"
+        android:textColor="@color/grey"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ProgressBar2"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/ProgressBar2" />
+
+    <TextView
+        android:id="@+id/tvLessonCardProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/candy_beans"
+        android:text="0"
+        android:textColor="@color/blue_2"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/ProgressBar2"
+        app:layout_constraintEnd_toEndOf="@+id/ProgressBar2"
+        app:layout_constraintStart_toStartOf="@+id/ProgressBar2"
+        app:layout_constraintTop_toTopOf="@+id/ProgressBar2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

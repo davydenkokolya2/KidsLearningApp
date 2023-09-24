@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_background"
+    tools:context=".ui.lesson.LessonFragment">
+
+
+    <ImageView
+        android:id="@+id/btnNextLesson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/icon_button_next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_lesson"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="@+id/btnNextLesson"
+        app:layout_constraintEnd_toEndOf="@+id/btnNextLesson"
+        app:layout_constraintStart_toStartOf="@+id/btnNextLesson"
+        app:layout_constraintTop_toTopOf="@+id/btnNextLesson"
+        app:layout_constraintVertical_bias="0.35000002" />
+
+    <TextView
+        android:id="@+id/tvLessonTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="@string/next_lesson"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnNextLesson"
+        app:layout_constraintStart_toStartOf="@+id/btnNextLesson"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLessonDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="85dp"
+        android:gravity="center"
+        android:text="@string/next_lesson"
+        android:textColor="@color/dark_blue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnNextLesson"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLessonTitle" />
+
+    <ImageView
+        android:id="@+id/btnLessonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_button_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
